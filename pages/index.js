@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import Layout, { siteTitle } from '../components/layout'
+import { getSortedPostsData } from '../lib/posts'
+import utilStyles from '../styles/utils.module.css'
 
 const Home = ({ allPostsData }) => {
 	return (
@@ -12,11 +12,12 @@ const Home = ({ allPostsData }) => {
 				<title>{siteTitle}</title>
 			</Head>
 			<section className={utilStyles.headingMd}>
-				<p>Hi! I'm Rochak. I'm a Software Engineer.</p>
 				<p>
-					(This is a sample website - you’ll be building a site like this in{' '}
-					<a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+					Hi! I'm Rochak, a CS Grad at USC. I will be graduating in May 2021 and after that I will be joining AWS as a Software Engineer. I like to understand how software systems work and aspire to get good at building them.
+				</p>
+				<p>
+					This is my personal website where I share my thoughts and things I am working on. It is currently a work in progress as I am still trying to stitch some pieces together.
+				</p>
 			</section>
 			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 				<h2 className={utilStyles.headingLg}>Blog</h2>
