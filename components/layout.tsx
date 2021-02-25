@@ -1,13 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import utilStyles from '../styles/utils.module.css'
+import styles from './layout.module.css'
 
-const name = 'Rochak Gupta'
-export const siteTitle = "Rochak Gupta"
+const name = 'Rochak Gupta';
+export const siteTitle = "Rochak Gupta";
 
-const Layout = ({ children, home }) => (
+const Layout = ({
+	children,
+	home
+  }: {
+	children: React.ReactNode
+	home?: boolean
+  }) => (
 	<div className={styles.container}>
 		<Head>
 			<link rel="icon" href="/favicon.ico" />

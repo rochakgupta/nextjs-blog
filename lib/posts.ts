@@ -1,10 +1,10 @@
 import fs from 'fs'
-import path from 'path'
 import matter from 'gray-matter'
+import path from 'path'
 import remark from 'remark'
 import html from 'remark-html'
 
-const postsDirectory = path.join(process.cwd(), 'posts')
+const postsDirectory = path.join(process.cwd(), 'posts');
 
 export const getSortedPostsData = () => {
     // Get file names under /posts
@@ -27,14 +27,14 @@ export const getSortedPostsData = () => {
         }
     })
     // Sort posts by date
-    return allPostsData.sort((a, b) => {
+    return allPostsData.sort((a: { id: string, date: string }, b: { id: string, date: string }) => {
         if (a.date < b.date) {
             return 1
         } else {
             return -1
         }
     })
-}
+};
 
 export const getAllPostIds = () => {
     const fileNames = fs.readdirSync(postsDirectory)
@@ -59,9 +59,9 @@ export const getAllPostIds = () => {
             }
         }
     })
-}
+};
 
-export const getPostData = async (id) => {
+export const getPostData = async (id: string) => {
     const fullPath = path.join(postsDirectory, `${id}.md`)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
@@ -80,4 +80,4 @@ export const getPostData = async (id) => {
         contentHtml,
         ...matterResult.data
     }
-}
+};
