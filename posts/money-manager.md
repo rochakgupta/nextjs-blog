@@ -3,7 +3,7 @@ title: "Money Manager"
 date: "2021-02-25"
 ---
 
-I have been keeping track of my money via a third party service for close to four years now. When I started, I was but a fledgling who did not care much about security and what information should be tracked along with transactions. So, I went all in and tracked everything with as much detail as possible. Over time, I started analyzing the problems I had with the service.
+I have been keeping track of my money via a third party service for close to four years now. When I started, I was but a fledgling who did not care much about security and what information should be tracked along with transactions. So, I went all in and tracked everything with as much detail as possible. Over time, I started analyzing the problems I was facing with the service.
 
 ### Problems
 
