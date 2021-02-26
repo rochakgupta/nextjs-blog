@@ -8,13 +8,13 @@ import utilStyles from '../styles/utils.module.css'
 
 const Home = ({
 	allPostsData
-  }: {
+}: {
 	allPostsData: {
-	  date: string
-	  title: string
-	  id: string
+		date: string
+		title: string
+		id: string
 	}[]
-  }) => {
+}) => {
 	return (
 		<Layout home>
 			<Head>

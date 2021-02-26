@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
+import Comments from '../../components/comments';
 import Date from '../../components/date';
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
@@ -7,13 +8,13 @@ import utilStyles from '../../styles/utils.module.css';
 
 const Post = ({
     postData
-  }: {
+}: {
     postData: {
-      title: string
-      date: string
-      contentHtml: string
+        title: string
+        date: string
+        contentHtml: string
     }
-  }) => (
+}) => (
     <Layout>
         <Head>
             <title>{postData.title}</title>
@@ -25,6 +26,7 @@ const Post = ({
             </div>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
+        <Comments />
     </Layout>
 );
 

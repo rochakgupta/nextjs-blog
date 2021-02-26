@@ -10,10 +10,10 @@ export const siteTitle = "Rochak Gupta";
 const Layout = ({
 	children,
 	home
-  }: {
+}: {
 	children: React.ReactNode
 	home?: boolean
-  }) => (
+}) => (
 	<div className={styles.container}>
 		<Head>
 			<link rel="icon" href="/favicon.ico" />
