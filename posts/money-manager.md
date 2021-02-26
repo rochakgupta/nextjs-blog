@@ -3,14 +3,14 @@ title: "Money Manager"
 date: "2021-02-25"
 ---
 
-I have been keeping track of my money via a third party service for close to four years now. When I started, I was but a fledgling who did not care much about security and what information should be tracked along with transactions. So, I went all in and tracked everything with as much detail as possible. Over time, I started analyzing the problems with the service as well as the features I wished it had.
+I have been keeping track of my money via a third party service for close to four years now. When I started, I was but a fledgling who did not care much about security and what information should be tracked along with transactions. So, I went all in and tracked everything with as much detail as possible. Over time, I started analyzing the problems I had with the service.
 
 ### Problems
 
 - The service was a web application and a mobile app. I got tired of clicking buttons and typing too much.
 - The service was very bare bones and offered limited flexibility in linking different expenses. I often want to link spread out transactions as if they were all part of something big.
 - The metadata that I could associate with every transaction was very basic - _date, location, text, hastags_. To be specific, different kinds of transactions demand additional and different metadata but because this construction was in my mind, the service couldn't do anything for me. I tried to solve this problem by coming up with a keyword based language that I would have to keep consistent across same type of transactions. It was not a good experience, but it worked.
-- Related to the above problem was the problem of aggregating transactions not just by their basic metadata, but by their additional metadata that differed significantly. For example, there were many occasions when someone else paid for my share of a meal or shopping. I tracked additional information about these transactions using the keyword based language. The service allowed filtering on metadata text, so I use simple text matching to find how much I owe somebody. This was painful because I am not a linguist and my made up language was not good. I would have preferred to fill in these additional metadata fields rather than typing them completely.
+- Related to the above problem was the problem of aggregating transactions not just by their basic metadata, but by their additional metadata that differed significantly. For example, there were many occasions when someone else paid for my share of a meal or shopping. I tracked additional information about these transactions using the keyword based language. The service allowed filtering on metadata text, so I used simple text matching to find how much I owe somebody. This was painful because I am not a linguist and my made up language was not good. I would have preferred to fill in these additional metadata fields rather than typing them completely.
 
 ### Solution
 
