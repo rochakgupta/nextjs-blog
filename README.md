@@ -12,4 +12,4 @@ As for content creation and management, I will be writing the blog posts in Mark
 
 ### Current Undertakings
 
-The basic design is pretty similar to the NextJS blog example. I am changing it a bit to add more sections. Once that is done, I will work on dark theme support and persistence to store reader's preferences and the suggestions they submit via forms. You might think that all of this is a bit overkill for a static blog, but I want this to be my little experiment where I can let my imagination run wild.
+The basic design is pretty similar to the NextJS blog example. I am changing it a bit to add more sections. Once that is done, I will work on dark theme support and persistence to store reader's preferences. You might think that all of this is a bit overkill for a static blog, but I want this to be my little experiment where I can let my imagination run wild.
