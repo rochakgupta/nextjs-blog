@@ -1,5 +1,5 @@
 ---
-title: "Money Manager"
+title: "Expense Tracker"
 date: "2021-02-25"
 ---
 
