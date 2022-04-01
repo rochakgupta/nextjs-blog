@@ -22,7 +22,7 @@ const Home = ({
 			</Head>
 			<section className={utilStyles.headingMd}>
 				<p>
-					Hi! I'm Rochak, a Software Engineer at AWS working out of 
+					Hi! I'm Rochak, a Software Engineer at AWS based out of 
 					Seattle, WA, USA. I like to understand how software systems
 					work and aspire to get good at building them.
 				</p>
