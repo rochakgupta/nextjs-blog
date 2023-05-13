@@ -29,7 +29,7 @@ const Layout = ({
 				<>
 					<Image
 						priority
-						src="/images/profile.jpg"
+						src="/images/profile.jpeg"
 						className={utilStyles.borderCircle}
 						height={128}
 						width={128}
@@ -43,7 +43,7 @@ const Layout = ({
 							<a>
 								<Image
 									priority
-									src="/images/profile.jpg"
+									src="/images/profile.jpeg"
 									className={utilStyles.borderCircle}
 									height={108}
 									width={108}
